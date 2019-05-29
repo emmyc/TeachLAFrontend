@@ -1,17 +1,28 @@
 .radio-selector {
   display: flex;
-  height: 60px;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 1rem;
+  flex-direction: row;
+  height: 40px;
+  background-color: #5a5a5a;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 3px #999;
+  /* line-height: 45px; */
+  font-family: "Josefin Sans";
 }
 
 .radio-option {
   border: 2px solid #ddd;
-  background-color: rgb(238, 170, 25);
   color: #eee;
   padding: 5px;
   cursor: pointer;
   line-height: 27.5px;
+  width: 100px;
 }
 
 .radio-option:hover {
@@ -20,12 +31,13 @@
 
 .radio-option-selected {
   border: 2px solid #ddd;
-  background-color: #4caf50;
+  background-color: #ebad04;
   /* background-color: rgb(128, 50, 20); */
   color: #eee;
   padding: 5px;
   cursor: pointer;
   line-height: 27.5px;
+  width: 90px;
 }
 
 .radio-option-selected:hover {
@@ -33,11 +45,11 @@
 }
 
 #left {
-  border-radius: 25px 0 0 25px;
+  border-radius: 5px 0 0 5px;
   padding: 5px 5px 5px 10px;
 }
 
 #right {
-  border-radius: 0 25px 25px 0;
+  border-radius: 0 5px 5px 0;
   padding: 5px 10px 5px 5px;
 }
